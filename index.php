@@ -1,5 +1,9 @@
 <?php
     session_start();
+
+    $items = array();
+    
+    $_SESSION['items'] = $items;
 ?>
 
 <!DOCTYPE html>

@@ -6,7 +6,7 @@
 
     // add the item to the cart storing it in the session.
     foreach ($_POST as $key => $value) {
-        $_SESSION[$key] = $value;
+        array_push($_SESSION['items'], $value);
     }
 
 
