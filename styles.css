@@ -9,3 +9,7 @@ body {
 .shadow {
     align-content: center;
 }
+
+.btn {
+    text-align: right;
+}
