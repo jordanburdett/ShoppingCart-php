@@ -13,3 +13,8 @@ body {
 btn btn-primary{
     text-align: right;
 }
+
+#cart:hover {
+    color: lightgrey;
+    cursor: pointer;
+}

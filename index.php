@@ -26,7 +26,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-sm-10">
+            <div class="col">
                 <div class="shadow p-4 mb-4 bg-white">
                     <div class="card">
                         <div class="card-body">
@@ -86,12 +86,15 @@
                 </div>
             </div>
 
-            <div class="col-sm-2">
-                <div class="shadow p-4 mb-4 bg-white">
-                    <i class="fas fa-shopping-cart"></i>
-                    <h4>Cart</h4>
-                </div>
+            <div class="col-sm-1">
+                <a href="shoppingCart.php">
+                    <div class="shadow p-4 mb-4 bg-white" id="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <h4 style="text-align:center;">Cart</h4>
+                    </div>
+                </a>
             </div>
+
         </div>
     </div>  
 
