@@ -29,15 +29,17 @@
             <div class="col-sm-10">
                 <div class="shadow p-4 mb-4 bg-white">
                     <div class="card">
-                        <div class="card-body">Banana
+                        <h4 class="card-title">Banana</h4>
+                        <div class="card-body">A delicious fruit
                             <div class="float-sm-right">
                                 <button type="button" class="btn btn-primary" onclick="storeInfo('banana')"> Add to Cart</button>
                             </div>
                         </div>
                     </div> <br>
 
-                    <div class="card">                   
-                        <div class="card-body">mango 
+                    <div class="card">
+                        <h4 class="card-title">Mango</h4>                 
+                        <div class="card-body">A delicious fruit
                             <div class="float-sm-right">
                                 <button type="button" class="btn btn-primary" onclick="storeInfo('mango')" > Add to Cart</button>
                             </div>
@@ -45,15 +47,17 @@
                     </div><br>
 
                     <div class="card">
-                        <div class="card-body">pear  
+                    <h4 class="card-title">Pear</h4> 
+                        <div class="card-body">A delicious fruit 
                             <div class="float-sm-right">
                                 <button type="button" class="btn btn-primary" onclick="storeInfo('pear')"  > Add to Cart</button>
                             </div>
                         </div>
                     </div><br>
 
-                    <div class="card">                
-                        <div class="card-body">apple 
+                    <div class="card">
+                    <h4 class="card-title">Apple</h4>               
+                        <div class="card-body">A delicious fruit
                             <div class="float-sm-right">
                                 <button type="button" class="btn btn-primary" onclick="storeInfo('apple')" > Add to Cart</button>
                             </div>
@@ -61,7 +65,8 @@
                     </div><br>
 
                     <div class="card">
-                        <div class="card-body">peach 
+                    <h4 class="card-title">Peach</h4> 
+                        <div class="card-body">A delicious fruit
                             <div class="float-sm-right">
                                 <button type="button" class="btn btn-primary" onclick="storeInfo('peach')" > Add to Cart</button>
                             </div>
