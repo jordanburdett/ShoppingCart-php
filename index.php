@@ -94,6 +94,8 @@
 
                         <li><span class="fa-li"><i class="fas fa-shopping-cart fa-2x"></i></span>
                                 <a href="shoppingCart.php" class="btn btn-primary">Checkout</a><span></li>
+
+                        </ul>
                        
                     </div> 
                 </a>
