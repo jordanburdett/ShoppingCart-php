@@ -17,7 +17,11 @@
 
 <body>
     <div class="container">
-        <button type="button" class="btn btn-primary" onclick="storeInfo('item1','banana')">Test</button>
+        <button type="button" class="btn btn-primary" onclick="storeInfo('banana')">banana</button>
+        <button type="button" class="btn btn-primary" onclick="storeInfo('mango')">mango</button>
+        <button type="button" class="btn btn-primary" onclick="storeInfo('pear')">pear</button>
+        <button type="button" class="btn btn-primary" onclick="storeInfo('apple')">apple</button>
+        <button type="button" class="btn btn-primary" onclick="storeInfo('peach')">peach</button>
 
         <a href="ShowSession.php">show session</a>
     </div>
