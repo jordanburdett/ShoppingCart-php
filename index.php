@@ -87,7 +87,7 @@
             </div>
 
             <a href="shoppingCart.php" style="color:black;">
-                <div class="col-sm-1">
+                <div class="col-sm-2">
                     <div class="shadow p-4 mb-4 bg-white">
                         <i class="fas fa-shopping-cart"></i>
                         <h4 style="text-align:center;">Cart</h4>
