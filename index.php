@@ -28,9 +28,17 @@
         <div class="col">
             <div class="shadow p-4 mb-4 bg-white">
                 <p class="item">banana<button type="button" class="btn btn-primary" onclick="storeInfo('banana')"> Add to Cart</button></p><br>
+            </div>
+            <div class="shadow p-4 mb-4 bg-white">
                 <p class="item">mango <button type="button" class="btn btn-primary" onclick="storeInfo('mango')" > Add to Cart</button></p><br>
+            </div>
+            <div class="shadow p-4 mb-4 bg-white">
                 <p class="item">pear  <button type="button" class="btn btn-primary" onclick="storeInfo('pear')"  > Add to Cart</button></p><br>
+            </div>
+            <div class="shadow p-4 mb-4 bg-white">
                 <p class="item">apple <button type="button" class="btn btn-primary" onclick="storeInfo('apple')" > Add to Cart</button></p><br>
+            </div>
+            <div class="shadow p-4 mb-4 bg-white">
                 <p class="item">peach <button type="button" class="btn btn-primary" onclick="storeInfo('peach')" > Add to Cart</button></p><br>
             </div>
         </div>
