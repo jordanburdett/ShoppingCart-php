@@ -26,7 +26,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-10">
                 <div class="shadow p-4 mb-4 bg-white">
                     <div class="card">
                         <div class="card-body">Banana
