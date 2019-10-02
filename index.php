@@ -26,27 +26,37 @@
 
     <div class="container">
         <div class="col-sm-10">
-            <div class="shadow p-4 mb-4 bg-white">
+            
                 <div class="card">
-                    <div class="card-body">Banana<button type="button" class="btn btn-primary" onclick="storeInfo('banana')"> Add to Cart</button></div><br>
+                    <div class="card-body">Banana
+                        <button type="button" class="btn btn-primary" onclick="storeInfo('banana')"> Add to Cart</button>
+                    </div><br>
                 </div>
 
                 <div class="card">
-                    <div class="card-body">mango <button type="button" class="btn btn-primary" onclick="storeInfo('mango')" > Add to Cart</button></div><br>
+                    <div class="card-body">mango 
+                        <button type="button" class="btn btn-primary" onclick="storeInfo('mango')" > Add to Cart</button>
+                    </div><br>
                 </div>
 
                 <div class="card">
-                    <div class="card-body">pear  <button type="button" class="btn btn-primary" onclick="storeInfo('pear')"  > Add to Cart</button></div><br>
+                    <div class="card-body">pear  
+                        <button type="button" class="btn btn-primary" onclick="storeInfo('pear')"  > Add to Cart</button>
+                    </div><br>
                 </div>
 
                 <div class="card">
-                    <div class="card-body">apple <button type="button" class="btn btn-primary" onclick="storeInfo('apple')" > Add to Cart</button></div><br>
+                    <div class="card-body">apple 
+                        <button type="button" class="btn btn-primary" onclick="storeInfo('apple')" > Add to Cart</button>
+                    </div><br>
                 </div>
 
                 <div class="card">
-                    <div class="card-body">peach <button type="button" class="btn btn-primary" onclick="storeInfo('peach')" > Add to Cart</button></div><br>
+                    <div class="card-body">peach 
+                        <button type="button" class="btn btn-primary" onclick="storeInfo('peach')" > Add to Cart</button>
+                    </div><br>
                 </div>
-            </div>
+            
         </div>
 
         <div class="col-sm-2">
