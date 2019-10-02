@@ -90,7 +90,7 @@
             <div class="col-sm-3">
                 <a href="shoppingCart.php" style="color:black;">
                     <div class="shadow p-4 mb-4 bg-white">
-                        <i class="fas fa-shopping-cart"></i>
+                        <i class="fas fa-shopping-cart fa-2x"></i>
                         <div class="float-sm-right">
                             <a href="shoppingCart.php" class="btn btn-primary">Checkout</a>
                         </div>
