@@ -1,3 +1,11 @@
 .item {
     padding: none
 }
+
+body {
+    color: whitesmoke;
+}
+
+.shadow {
+    align-content: center;
+}
