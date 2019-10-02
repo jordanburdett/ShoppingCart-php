@@ -27,19 +27,25 @@
     <div class="container">
         <div class="col-sm-10">
             <div class="shadow p-4 mb-4 bg-white">
-                <h6 class="item">banana<button type="button" class="btn btn-primary" onclick="storeInfo('banana')"> Add to Cart</button></h6><br>
-            </div>
-            <div class="shadow p-4 mb-4 bg-white">
-                <h6 class="item">mango <button type="button" class="btn btn-primary" onclick="storeInfo('mango')" > Add to Cart</button></h6><br>
-            </div>
-            <div class="shadow p-4 mb-4 bg-white">
-                <h6 class="item">pear  <button type="button" class="btn btn-primary" onclick="storeInfo('pear')"  > Add to Cart</button></h6><br>
-            </div>
-            <div class="shadow p-4 mb-4 bg-white">
-                <h6 class="item">apple <button type="button" class="btn btn-primary" onclick="storeInfo('apple')" > Add to Cart</button></h6><br>
-            </div>
-            <div class="shadow p-4 mb-4 bg-white">
-                <h6 class="item">peach <button type="button" class="btn btn-primary" onclick="storeInfo('peach')" > Add to Cart</button></h6><br>
+                <div class="card">
+                    <h6 class="card-body">Banana<button type="button" class="btn btn-primary" onclick="storeInfo('banana')"> Add to Cart</button></h6><br>
+                </div>
+
+                <div class="card">
+                    <h6 class="card-body">mango <button type="button" class="btn btn-primary" onclick="storeInfo('mango')" > Add to Cart</button></h6><br>
+                </div>
+
+                <div class="card">
+                    <h6 class="card-body">pear  <button type="button" class="btn btn-primary" onclick="storeInfo('pear')"  > Add to Cart</button></h6><br>
+                </div>
+
+                <div class="card">
+                    <h6 class="card-body">apple <button type="button" class="btn btn-primary" onclick="storeInfo('apple')" > Add to Cart</button></h6><br>
+                </div>
+
+                <div class="card">
+                    <h6 class="card-body">peach <button type="button" class="btn btn-primary" onclick="storeInfo('peach')" > Add to Cart</button></h6><br>
+                </div>
             </div>
         </div>
 
