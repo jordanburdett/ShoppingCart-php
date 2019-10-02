@@ -92,7 +92,7 @@
                     <div class="shadow p-4 mb-4 bg-white">
                         <i class="fas fa-shopping-cart"></i>
                         <div class="float-sm-right">
-                            <a href="shoppingCart.php" class="btn btn-primary">Checkout</a>
+                            <a href="shoppingCart.php" class="btn btn-primary mx-auto">Checkout</a>
                         </div>
                     </div> 
                 </a>
