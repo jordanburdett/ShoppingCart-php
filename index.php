@@ -20,7 +20,7 @@
 
 <body>
     <div class="container-fluid">
-        <h1 class="display-4" style="align-text:center;">Order Here!</h1>
+        <h1 class="display-4" style="text-align:center;">Order Here!</h1>
     </div>
 
 
