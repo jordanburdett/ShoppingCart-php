@@ -25,57 +25,61 @@
 
 
     <div class="container">
-        <div class="col-sm-6">
-            <div class="shadow p-4 mb-4 bg-white">
-                <div class="card">
-                    <div class="card-body">Banana
-                        <div class="float-sm-right">
-                            <button type="button" class="btn btn-primary" onclick="storeInfo('banana')"> Add to Cart</button>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="shadow p-4 mb-4 bg-white">
+                    <div class="card">
+                        <div class="card-body">Banana
+                            <div class="float-sm-right">
+                                <button type="button" class="btn btn-primary" onclick="storeInfo('banana')"> Add to Cart</button>
+                            </div>
                         </div>
-                    </div>
-                </div> <br>
+                    </div> <br>
 
-                <div class="card">
-                    <div class="float-sm-right">
+                    <div class="card">                   
                         <div class="card-body">mango 
-                            <button type="button" class="btn btn-primary" onclick="storeInfo('mango')" > Add to Cart</button>
+                            <div class="float-sm-right">
+                                <button type="button" class="btn btn-primary" onclick="storeInfo('mango')" > Add to Cart</button>
+                            </div>
                         </div>
-                    </div>
-                </div><br>
+                    </div><br>
 
-                <div class="card">
-                    <div class="float-sm-right">
+                    <div class="card">
                         <div class="card-body">pear  
-                            <button type="button" class="btn btn-primary" onclick="storeInfo('pear')"  > Add to Cart</button>
+                            <div class="float-sm-right">
+                                <button type="button" class="btn btn-primary" onclick="storeInfo('pear')"  > Add to Cart</button>
+                            </div>
                         </div>
-                    </div>
-                </div><br>
+                    </div><br>
 
-                <div class="card">
-                    <div class="float-sm-right">
+                    <div class="card">                
                         <div class="card-body">apple 
-                            <button type="button" class="btn btn-primary" onclick="storeInfo('apple')" > Add to Cart</button>
+                            <div class="float-sm-right">
+                                <button type="button" class="btn btn-primary" onclick="storeInfo('apple')" > Add to Cart</button>
+                            </div>
                         </div>
-                    </div>
-                </div><br>
+                    </div><br>
 
-                <div class="card">
-                    <div class="float-sm-right">
+                    <div class="card">
                         <div class="card-body">peach 
-                            <button type="button" class="btn btn-primary" onclick="storeInfo('peach')" > Add to Cart</button>
+                            <div class="float-sm-right">
+                                <button type="button" class="btn btn-primary" onclick="storeInfo('peach')" > Add to Cart</button>
+                            </div>
                         </div>
-                    </div>
-                </div><br>
+                    </div><br>
+                </div>
+            </div>
+
+            <div class="col-sm-2">
+                <i class="fas fa-shopping-cart">
+                    <h4>Cart</h4>
+                </i>
             </div>
         </div>
-
-        <div class="col-sm-2">
-        <i class="fas fa-shopping-cart"><h4>Cart</h4></i>
-            
-        </div>
+    </div>  
 
         <a href="ShowSession.php">show session</a>
-    </div>
+</div>
 
     <script src="javascript.js"></script>
 </body>
