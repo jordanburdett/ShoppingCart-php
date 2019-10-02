@@ -20,17 +20,19 @@
 
 <body>
     <div class="container-fluid">
-        <h1 class="display-4">Order Here!</h1>
+        <h1 class="display-4" style="align-text:center;">Order Here!</h1>
     </div>
 
 
     <div class="container">
         <div class="col">
-            <button type="button" class="btn btn-primary" onclick="storeInfo('banana')"> Add to Cart</button>
-            <button type="button" class="btn btn-primary" onclick="storeInfo('mango')" > Add to Cart</button>
-            <button type="button" class="btn btn-primary" onclick="storeInfo('pear')"  > Add to Cart</button>
-            <button type="button" class="btn btn-primary" onclick="storeInfo('apple')" > Add to Cart</button>
-            <button type="button" class="btn btn-primary" onclick="storeInfo('peach')" > Add to Cart</button>
+            <div class="shadow p-4 mb-4 bg-white">
+                <p class="item">banana<button type="button" class="btn btn-primary" onclick="storeInfo('banana')"> Add to Cart</button></p><br>
+                <p class="item">mango <button type="button" class="btn btn-primary" onclick="storeInfo('mango')" > Add to Cart</button></p><br>
+                <p class="item">pear  <button type="button" class="btn btn-primary" onclick="storeInfo('pear')"  > Add to Cart</button></p><br>
+                <p class="item">apple <button type="button" class="btn btn-primary" onclick="storeInfo('apple')" > Add to Cart</button></p><br>
+                <p class="item">peach <button type="button" class="btn btn-primary" onclick="storeInfo('peach')" > Add to Cart</button></p><br>
+            </div>
         </div>
 
         <div class="col-sm-2">
