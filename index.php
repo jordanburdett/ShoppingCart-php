@@ -93,7 +93,7 @@
                         <ul class="fa-ul">
 
                         <li><span class="fa-li"><i class="fas fa-shopping-cart fa-2x"></i></span>
-                                <a href="shoppingCart.php" class="btn btn-primary" style="padding-left:5%;">Checkout</a><span></li>
+                                <a href="shoppingCart.php" class="btn btn-primary" style="padding-left:10%;">Checkout</a><span></li>
 
                         </ul>
                        
