@@ -4,10 +4,15 @@
  */
     session_start();
 
-    // add the item to the cart storing it in the session.
-    foreach ($_POST as $key => $value) {
-        array_push($_SESSION['items'], $value);
+    $sessionArray = $_SESSION['items'];
+
+    if ($sessionArray == null) {
+        $sessionArray = array($_POST['0']);
+    }
+    else {
+        array_push($sessionArray, $_POST['0']);
     }
 
+    $_SESSION['items'] = $sessionArray;
 
 ?>
