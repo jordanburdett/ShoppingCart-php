@@ -86,14 +86,13 @@
                 </div>
             </div>
 
-            <div class="col-sm-1">
-                <a href="shoppingCart.php">
-                    <div class="shadow p-4 mb-4 bg-white" id="cart">
+            <a href="shoppingCart.php" style="color:black;">
+                <div class="col-sm-1">
                         <i class="fas fa-shopping-cart"></i>
                         <h4 style="text-align:center;">Cart</h4>
-                    </div>
-                </a>
-            </div>
+                    </div> 
+                </div>
+            </a>
 
         </div>
     </div>  
