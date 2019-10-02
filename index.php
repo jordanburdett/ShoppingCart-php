@@ -92,8 +92,8 @@
                     <div class="shadow p-4 mb-4 bg-white">
                         <ul class="fa-ul">
 
-                        <li><span class="fa-li" style="padding-left:5%;"><i class="fas fa-shopping-cart fa-2x"></i></span>
-                                <a href="shoppingCart.php" class="btn btn-primary">Checkout</a><span></li>
+                        <li><span class="fa-li"><i class="fas fa-shopping-cart fa-2x"></i></span>
+                                <a href="shoppingCart.php" class="btn btn-primary" style="padding-left:5%;">Checkout</a><span></li>
 
                         </ul>
                        
