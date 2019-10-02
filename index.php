@@ -74,8 +74,10 @@
                     </div><br>
 
                     <div class="card">
-                    <h4 class="card-title">Peach</h4> 
-                        <div class="card-body">A delicious fruit
+                     
+                        <div class="card-body">
+                        <h4 class="card-title">Peach</h4>
+                        <p class="card-text">A delicious fruit</p>
                             <div class="float-sm-right">
                                 <button type="button" class="btn btn-primary" onclick="storeInfo('peach')" > Add to Cart</button>
                             </div>
@@ -85,9 +87,10 @@
             </div>
 
             <div class="col-sm-2">
-                <i class="fas fa-shopping-cart">
+                <div class="shadow p-4 mb-4 bg-white">
+                    <i class="fas fa-shopping-cart"></i>
                     <h4>Cart</h4>
-                </i>
+                </div>
             </div>
         </div>
     </div>  
