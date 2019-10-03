@@ -139,7 +139,7 @@ session_start();
                 '0': item
             });
 
-            $('.toast').toast(delay: 5000);
+            $('.toast').toast({delay: 5000});
             $('.toast').toast('show');
         }
     </script>
