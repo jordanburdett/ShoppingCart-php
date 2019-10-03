@@ -134,7 +134,7 @@ session_start();
         $(document).ready(function() {
             $("#add").click(function() {
                 storeInfo(this.value)
-                $('.toast').toast('show');
+                $('.toast').toast({delay:2000, animation:true});
             });
         });
 
