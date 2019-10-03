@@ -1,4 +1,11 @@
 
+//shows toast when item is added
+$(document).ready(function() {
+    $("#add").click(function() {
+    });
+});
+
+
 //start off by checking if there is anything in the cart
 
 
@@ -9,9 +16,3 @@ function storeInfo(item) {
     $.post("storeInfo.php", {'0': item});
 }
 
-//shows toast when item is added
-$(document).ready(function() {
-    $("#add").click(function() {
-        $('.toast').toast('show');
-    });
-});
