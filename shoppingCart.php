@@ -29,7 +29,7 @@ session_start();
 
             <?php
 
-            $sessionArray = $_SESSION['0'];
+            $sessionArray = $_SESSION['items'];
 
             if ($sessionArray == NULL) {
                 echo "<div class='card'>
