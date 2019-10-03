@@ -40,8 +40,12 @@ session_start();
                         </div> <br>";
             } else {
 
-                foreach ($sessionArray as $value) { 
-                    echo "$value <br>";
+                foreach ($sessionArray as $value) {
+                    echo "<div class='card'>
+                            <div class='card-body'>
+                                    <p class='card-text'>$value</p>
+                            /div>
+                          </div> <br>";
                 }
             }
 
