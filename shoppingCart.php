@@ -45,7 +45,7 @@ session_start();
                             <div class='card-body'>
                                     <p class='card-text'>$value
 
-                                    <button type='button' class='ml-2 mb-1 close' style='color:red;'>
+                                    <button type='button' class='ml-2 mb-1 close' style='color:red;' onclick='removeItem($value)'>
                                      <span aria-hidden='true'>&times;</span>
                                     </button>
 
