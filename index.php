@@ -38,7 +38,7 @@
                         </div>
                     </div> <br>
 
-                    <div class="card">      
+                    <div class="card">
                         <div class="card-body">
                             <h4 class="card-title">Mango</h4>
                             <p class="card-text">A delicious fruit</p>
