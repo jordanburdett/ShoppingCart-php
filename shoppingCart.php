@@ -31,7 +31,7 @@ session_start();
 
             $sessionArray = $_SESSION['0'];
 
-            if (sessionArray == NULL) {
+            if ($sessionArray == NULL) {
                 echo "<div class='card'>
                             <div class='card-body'>
                                 <h4 class='card-title'>Go back and buy some items!</h4>
