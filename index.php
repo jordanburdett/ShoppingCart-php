@@ -23,9 +23,6 @@ session_start();
         <div class="toast ml-auto show" role="alert">
             <div class="toast-header">
                 Item Added to Cart
-                <button type="button" class="close" data-dismiss="toast">
-                    <span aria-hidden="true">&times;</span>
-                </button>
             </div>
             <div class="toast-body">
                 Click Checkout to Finish Your Purchase
