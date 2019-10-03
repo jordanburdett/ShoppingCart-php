@@ -44,7 +44,11 @@ session_start();
                     echo "<div class='card'>
                             <div class='card-body'>
                                     <p class='card-text'>$value</p>
-                            /div>
+                                    
+                                    <button type='button' class='ml-2 mb-1 close'>
+                                     <span aria-hidden='true'>&times;</span>
+                                    </button>
+                            </div>
                           </div> <br>";
                 }
             }
