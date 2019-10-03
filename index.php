@@ -120,6 +120,14 @@
     </div>
 </div>
 
+<script>
+    //shows toast when item is added
+    $(document).ready(function() {
+        $("#add").click(function() {
+            $('.toast').toast('show');
+        });
+    });
+</script>
     
 </body>
 

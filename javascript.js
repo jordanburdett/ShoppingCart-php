@@ -1,10 +1,5 @@
 
-//shows toast when item is added
-$(document).ready(function() {
-    $("#add").click(function() {
-        $('.toast').toast('show');
-    });
-});
+
 
 
 //start off by checking if there is anything in the cart
