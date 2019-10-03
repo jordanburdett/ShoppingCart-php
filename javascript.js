@@ -15,10 +15,13 @@
 
         function removeItem(item) {
             console.log(item);
+
+            /*
             $.post("storeInfo.php", {
                 '0': item
             });
-
+            */
+           
             console.log("Item removed: " + item);
             
             $("." + item).hide();
