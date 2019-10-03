@@ -109,12 +109,18 @@
         <a href="ShowSession.php">show session</a>
 </div>
 
-<div class="toast">
-    <div class="toast-header">
-      Item added to cart
-    </div>
-    <div class="toast-body">
-      Click checkout to finish your purchase
+<div class="position-absolute w-100 p-4 d-flex flex-column align-items-end">
+    <div class="w-25">
+        <div class="toast m1-auto" role="alert" data-delay="1000" data-autohide="true">
+            <div class="toast">
+                <div class="toast-header">
+                    Item added to cart
+                </div>
+                <div class="toast-body">
+                    Click checkout to finish your purchase
+                </div>
+            </div>
+        </div>
     </div>
 </div>
     
