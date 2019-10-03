@@ -123,6 +123,45 @@
         </div>
     </div>
 </div>
+
+<div class="position-absolute w-100 h-100 p-4 d-flex justify-content-end align-items-start">
+    <div class="toast mr-3" role="alert" data-delay="1000" data-autohide="true">
+        <div class="toast-header">
+            <strong class="mr-auto text-primary">Toast</strong>
+            <small class="text-muted">5 mins ago</small>
+            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                <span aria-hidden="true">×</span>
+            </button>
+        </div>
+        <div class="toast-body">
+            Hey, there! This is a Bootstrap 4 toast.
+        </div>
+    </div>
+    <div class="toast mr-3" role="alert" data-delay="3000" data-autohide="true">
+        <div class="toast-header">
+            <strong class="mr-auto text-primary">More Toast</strong>
+            <small class="text-muted">4 mins ago</small>
+            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                <span aria-hidden="true">×</span>
+            </button>
+        </div>
+        <div class="toast-body">
+            Hey, there! This is not Avacado Toast.
+        </div>
+    </div>
+    <div class="toast mr-3" role="alert" data-delay="5000" data-autohide="true">
+        <div class="toast-header">
+            <strong class="mr-auto text-primary">More Toast</strong>
+            <small class="text-muted">2 mins ago</small>
+            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                <span aria-hidden="true">×</span>
+            </button>
+        </div>
+        <div class="toast-body">
+            Hey, there! Here is another Toast
+        </div>
+    </div>
+</div>
     
 <script>
 /************
