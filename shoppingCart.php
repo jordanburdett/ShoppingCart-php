@@ -34,8 +34,8 @@ session_start();
             if ($sessionArray == NULL) {
                 echo "<div class='card'>
                             <div class='card-body'>
-                                <h4 class='card-title'>Go back and buy some items!</h4>
-                                    <p class='card-text'><a href='index.php'>back to store page</a></p>
+                                <h4 class='card-title'>Cart Empty!</h4>
+                                    <p class='card-text'><a href='index.php'>Go back and buy some items!</a></p>
                             </div>
                         </div> <br>";
             } else {
