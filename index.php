@@ -28,7 +28,7 @@ session_start();
     </div>
 
     <div class="toast">
-        <div class="position-absolute w-100 d-flex flex-column p-4">
+        <div class="position-relative w-100 d-flex flex-column p-4">
             <div class="toast ml-auto show" data-delay="10000" data-autohide="false" role="alert">
                 <div class="toast-header">
                     Item Added to Cart
