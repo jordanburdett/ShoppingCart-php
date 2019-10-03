@@ -1,7 +1,5 @@
 <?php
     session_start();
-
-    
 ?>
 
 <!DOCTYPE html>
@@ -119,15 +117,6 @@
       Click checkout to finish your purchase
     </div>
 </div>
-
-<script>
-    //shows toast when item is added
-    $(document).ready(function() {
-        $("#add").click(function() {
-            $('.toast').toast('show');
-        });
-    });
-</script>
     
 </body>
 
