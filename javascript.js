@@ -14,17 +14,19 @@
         }
 
         function removeItem(item) {
-            console.log(item);
+            console.log(item.id);
+            console.log(item.value);
+            console.log("." + item.id);
 
             /*
             $.post("storeInfo.php", {
                 '0': item
             });
             */
-           
+
             console.log("Item removed: " + item);
             
-            $("." + item).hide();
+            $(item.id).hide();
 
         }
 
