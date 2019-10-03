@@ -49,7 +49,7 @@ session_start();
                             <h4 class="card-title">Banana</h4>
                             <p class="card-text">A delicious fruit</p>
                             <div class="float-sm-right">
-                                <button type="button" value="Banana" class="btn btn-primary" id="add" onclick="buttonClick()"> Add to Cart</button>
+                                <button type="button" value="Banana" class="btn btn-primary" id="add"> Add to Cart</button>
                             </div>
                         </div>
                     </div> <br>
@@ -134,7 +134,7 @@ session_start();
          * quick ajax request using jquery to store item to the session
          */
         $(document).ready(function() {
-            $("#add").click(function() {
+            $(".btn btn-primary").click(function() {
                 storeInfo(this.value)
                 $('.toast').toast('show');
             });
