@@ -18,11 +18,11 @@
             console.log(item.value);
             console.log("." + item.id);
 
-            /*
+            
             $.post("storeInfo.php", {
                 '0': item
             });
-            */
+            
 
             console.log("Item removed: " + item);
             
