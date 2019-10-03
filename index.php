@@ -26,17 +26,18 @@ session_start();
             <h1 class="display-4" style="text-align:center;">Order Here!</h1>
         </div>
     </div>
+    <div class="fixed-top">
+        <div class="toast" id="myToast" style="position: absolute; top: 0; right: 0;">
+            <div class="toast-header">
+                <strong class="mr-auto"><i class="fa fa-grav"></i> Item Added to Cart</strong>
 
-    <div class="toast fixed-top" id="myToast" style="position: absolute; top: 0; right: 0;">
-        <div class="toast-header">
-            <strong class="mr-auto"><i class="fa fa-grav"></i> Item Added to Cart</strong>
-            
-            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">
-                <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-        <div class="toast-body">
-            <div>Click checkout to purchase items</div>
+                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="toast-body">
+                <div>Click checkout to purchase items</div>
+            </div>
         </div>
     </div>
 
@@ -133,13 +134,15 @@ session_start();
         /************
          * quick ajax request using jquery to store item to the session
          */
-        
+
         function storeInfo(item) {
             $.post("storeInfo.php", {
                 '0': item
             });
 
-            $('.toast').toast({delay: 1000});
+            $('.toast').toast({
+                delay: 1000
+            });
             $('.toast').toast('show');
         }
     </script>
