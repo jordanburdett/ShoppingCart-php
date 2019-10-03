@@ -15,7 +15,10 @@
 
         function removeItem(item) {
             console.log(item);
-            $.post("removeItem.php", {'0': item});
+            $.post("removeItem.php", {
+                '0': item
+            });
+            
             console.log("Item removed: " + item);
             
             $("." + item).hide();
