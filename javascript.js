@@ -13,3 +13,12 @@
             $('.toast').toast('show');
         }
 
+        function removeItem(item) {
+
+            $.post("removeItem.php", {'0': item});
+            console.log("Item removed: " + item);
+            
+            $("." + item).hide();
+
+        }
+
