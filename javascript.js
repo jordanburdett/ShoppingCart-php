@@ -2,6 +2,7 @@
 //shows toast when item is added
 $(document).ready(function() {
     $("#add").click(function() {
+        $('.toast').toast('show');
     });
 });
 
