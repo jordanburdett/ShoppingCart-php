@@ -104,12 +104,9 @@
             
 
         </div>
-    </div>  
 
-        <a href="ShowSession.php">show session</a>
-</div>
 
-<div aria-live="polite" aria-atomic="true" style="position: relative; min-height: 200px;">
+        <div aria-live="polite" aria-atomic="true" style="position: relative; min-height: 200px;">
   <div class="toast" style="position: absolute; top: 0; right: 0;">
     <div class="toast-header">
       <strong class="mr-auto">Item Added to Cart</strong>
@@ -122,6 +119,16 @@
     </div>
   </div>
 </div>
+
+
+
+
+    </div>  
+
+        <a href="ShowSession.php">show session</a>
+</div>
+
+
     
 <script>
 /************
