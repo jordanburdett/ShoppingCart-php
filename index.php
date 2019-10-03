@@ -27,7 +27,7 @@ session_start();
         </div>
     </div>
 
-    <div class="toast" id="myToast" style="position: absolute; top: 0; right: 0;">
+    <div class="toast fixed-top" id="myToast" style="position: absolute; top: 0; right: 0;">
         <div class="toast-header">
             <strong class="mr-auto"><i class="fa fa-grav"></i> Item Added to Cart</strong>
             
