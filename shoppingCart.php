@@ -43,11 +43,13 @@ session_start();
                 foreach ($sessionArray as $value) {
                     echo "<div class='card'>
                             <div class='card-body'>
-                                    <p class='card-text'>$value</p>
-                                    
+                                    <p class='card-text'>$value
+
                                     <button type='button' class='ml-2 mb-1 close'>
                                      <span aria-hidden='true'>&times;</span>
                                     </button>
+
+                                    </p>
                             </div>
                           </div> <br>";
                 }
