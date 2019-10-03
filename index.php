@@ -109,19 +109,18 @@
         <a href="ShowSession.php">show session</a>
 </div>
 
-<div class="position-absolute w-100 h-100 p-4 d-flex flex-column justify-content-end align-items-end">
-    <div class="w-25">
-        <div class="toast mr-3 role="alert" data-delay="10000" data-autohide="true">
-            <div class="toast">
-                <div class="toast-header">
-                    Item added to cart
-                </div>
-                <div class="toast-body">
-                    Click checkout to finish your purchase
-                </div>
-            </div>
-        </div>
+<div aria-live="polite" aria-atomic="true" style="position: relative; min-height: 200px;">
+  <div class="toast" style="position: absolute; top: 0; right: 0;">
+    <div class="toast-header">
+      <strong class="mr-auto">Item Added to Cart</strong>
+      <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
     </div>
+    <div class="toast-body">
+      Click Checkout to Finish your Purchase
+    </div>
+  </div>
 </div>
     
 <script>
