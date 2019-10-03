@@ -49,7 +49,7 @@ session_start();
                             <h4 class="card-title">Banana</h4>
                             <p class="card-text">A delicious fruit</p>
                             <div class="float-sm-right">
-                                <button type="button" value="Banana" class="btn btn-primary" id="add"> Add to Cart</button>
+                                <button type="button" value="Banana" class="btn btn-primary" id="add" onclick="buttonClick()"> Add to Cart</button>
                             </div>
                         </div>
                     </div> <br>
@@ -139,6 +139,10 @@ session_start();
                 $('.toast').toast('show');
             });
         });
+
+        function buttonClick() {
+            console.log(this.value);
+        }
 
         function storeInfo(item) {
             $.post("storeInfo.php", {
