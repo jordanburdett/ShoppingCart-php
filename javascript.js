@@ -18,6 +18,8 @@
             console.log(item.value);
             console.log("." + item.id);
 
+            console.log(typeof(item));
+
             
             $.post("storeInfo.php", {
                 '0': item
