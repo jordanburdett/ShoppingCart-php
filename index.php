@@ -27,16 +27,16 @@ session_start();
         </div>
     </div>
 
-    <div class="toast">
-        <div class="position-relative w-100 d-flex flex-column p-4">
-            <div class="toast ml-auto show" data-delay="10000" data-autohide="false" role="alert">
-                <div class="toast-header">
-                    Item Added to Cart
-                </div>
-                <div class="toast-body">
-                    Click Checkout to Finish Your Purchase
-                </div>
-            </div>
+    <div class="toast" id="myToast" style="position: absolute; top: 0; right: 0;">
+        <div class="toast-header">
+            <strong class="mr-auto"><i class="fa fa-grav"></i> Item Added to Cart</strong>
+            
+            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="toast-body">
+            <div>Click checkout to purchase items</div>
         </div>
     </div>
 
