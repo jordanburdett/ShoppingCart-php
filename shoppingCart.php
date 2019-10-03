@@ -41,11 +41,11 @@ session_start();
             } else {
 
                 foreach ($sessionArray as $value) {
-                    echo "<div class='card'>
+                    echo "<div class='card' id='$value'>
                             <div class='card-body'>
                                     <p class='card-text'>$value
 
-                                    <button type='button' class='ml-2 mb-1 close' style='color:red;' onclick='removeItem($value)' id='$value'>
+                                    <button type='button' class='ml-2 mb-1 close' style='color:red;' onclick='removeItem($value)'>
                                      <span aria-hidden='true'>&times;</span>
                                     </button>
 
