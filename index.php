@@ -33,7 +33,7 @@
                             <h4 class="card-title">Banana</h4>
                             <p class="card-text"  >A delicious fruit</p>
                             <div class="float-sm-right">
-                                <button type="button" class="btn btn-primary" onclick="storeInfo('banana')"> Add to Cart</button>
+                                <button type="button" class="btn btn-primary" onclick="storeInfo('banana')" id="add"> Add to Cart</button>
                             </div>
                         </div>
                     </div> <br>
@@ -44,7 +44,7 @@
                             <p class="card-text">A delicious fruit</p>
 
                             <div class="float-sm-right">
-                                <button type="button" class="btn btn-primary" onclick="storeInfo('mango')" > Add to Cart</button>
+                                <button type="button" class="btn btn-primary" onclick="storeInfo('mango')" id="add"> Add to Cart</button>
                             </div>
                         </div>
                     </div><br>
@@ -56,7 +56,7 @@
                             <p class="card-text">A delicious fruit</p>
 
                             <div class="float-sm-right">
-                                <button type="button" class="btn btn-primary" onclick="storeInfo('pear')"  > Add to Cart</button>
+                                <button type="button" class="btn btn-primary" onclick="storeInfo('pear')" id="add"> Add to Cart</button>
                             </div>
                         </div>
                     </div><br>
@@ -68,7 +68,7 @@
                             <p class="card-text">A delicious fruit</p>
 
                             <div class="float-sm-right">
-                                <button type="button" class="btn btn-primary" onclick="storeInfo('apple')" > Add to Cart</button>
+                                <button type="button" class="btn btn-primary" onclick="storeInfo('apple')" id="add"> Add to Cart</button>
                             </div>
                         </div>
                     </div><br>
@@ -79,7 +79,7 @@
                         <h4 class="card-title">Peach</h4>
                         <p class="card-text">A delicious fruit</p>
                             <div class="float-sm-right">
-                                <button type="button" class="btn btn-primary" onclick="storeInfo('peach')" > Add to Cart</button>
+                                <button type="button" class="btn btn-primary" onclick="storeInfo('peach')" id="add"> Add to Cart</button>
                             </div>
                         </div>
                     </div><br>
@@ -108,6 +108,15 @@
     </div>  
 
         <a href="ShowSession.php">show session</a>
+</div>
+
+<div class="toast">
+    <div class="toast-header">
+      Item added to cart
+    </div>
+    <div class="toast-body">
+      Click checkout to finish your purchase
+    </div>
 </div>
 
     <script src="javascript.js"></script>
