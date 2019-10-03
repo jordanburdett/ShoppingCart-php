@@ -26,7 +26,7 @@
 
             console.log("Item removed: " + item);
             
-            $("." + item.id).hide();
+            $("#" + item.id).hide();
 
         }
 
