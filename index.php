@@ -19,6 +19,7 @@ session_start();
 
 <body>
 
+<div class="toast">
     <div class="position-absolute w-100 d-flex flex-column p-4">
         <div class="toast ml-auto show" role="alert">
             <div class="toast-header">
@@ -29,6 +30,7 @@ session_start();
             </div>
         </div>
     </div>
+</div>
 
 
 
