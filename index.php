@@ -19,26 +19,26 @@ session_start();
 
 <body>
 
-<div class="toast">
-    <div class="position-absolute w-100 d-flex flex-column p-4">
-        <div class="toast ml-auto show" data-delay="10000" data-autohide="false" role="alert">
-            <div class="toast-header">
-                Item Added to Cart
-            </div>
-            <div class="toast-body">
-                Click Checkout to Finish Your Purchase
+    <div class="toast">
+        <div class="position-absolute w-100 d-flex flex-column p-4">
+            <div class="toast ml-auto show" data-delay="10000" data-autohide="false" role="alert">
+                <div class="toast-header">
+                    Item Added to Cart
+                </div>
+                <div class="toast-body">
+                    Click Checkout to Finish Your Purchase
+                </div>
             </div>
         </div>
     </div>
-</div>
 
 
 
-
-    <div class="container-fluid">
-        <h1 class="display-4" style="text-align:center;">Order Here!</h1>
+    <div class="jumbotron">
+        <div class="container-fluid">
+            <h1 class="display-4" style="text-align:center;">Order Here!</h1>
+        </div> <br>
     </div>
-
 
     <div class="container">
         <div class="row">
