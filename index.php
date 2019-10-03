@@ -49,7 +49,7 @@ session_start();
                             <h4 class="card-title">Banana</h4>
                             <p class="card-text">A delicious fruit</p>
                             <div class="float-sm-right">
-                                <button type="button" value="Banana" class="btn btn-primary" id="add"> Add to Cart</button>
+                                <button type="button" value="Banana" class="btn btn-primary" id="add" onclick="storeInfo('Banana')"> Add to Cart</button>
                             </div>
                         </div>
                     </div> <br>
@@ -60,7 +60,7 @@ session_start();
                             <p class="card-text">A delicious fruit</p>
 
                             <div class="float-sm-right">
-                                <button type="button" value="Mango" class="btn btn-primary" id="add"> Add to Cart</button>
+                                <button type="button" value="Mango" class="btn btn-primary" id="add" onclick="storeInfo('Mango')"> Add to Cart</button>
                             </div>
                         </div>
                     </div><br>
@@ -72,7 +72,7 @@ session_start();
                             <p class="card-text">A delicious fruit</p>
 
                             <div class="float-sm-right">
-                                <button type="button" value="Pear" class="btn btn-primary" id="add"> Add to Cart</button>
+                                <button type="button" value="Pear" class="btn btn-primary" id="add" onclick="storeInfo('Pear')"> Add to Cart</button>
                             </div>
                         </div>
                     </div><br>
@@ -84,7 +84,7 @@ session_start();
                             <p class="card-text">A delicious fruit</p>
 
                             <div class="float-sm-right">
-                                <button type="button" value="Apple" class="btn btn-primary" id="add"> Add to Cart</button>
+                                <button type="button" value="Apple" class="btn btn-primary" id="add" onclick="storeInfo('Apple')"> Add to Cart</button>
                             </div>
                         </div>
                     </div><br>
@@ -95,7 +95,7 @@ session_start();
                             <h4 class="card-title">Peach</h4>
                             <p class="card-text">A delicious fruit</p>
                             <div class="float-sm-right">
-                                <button type="button" value="Peach" class="btn btn-primary" id="add"> Add to Cart</button>
+                                <button type="button" value="Peach" class="btn btn-primary" id="add" onclick="storeInfo('Peach')"> Add to Cart</button>
                             </div>
                         </div>
                     </div><br>
@@ -133,21 +133,13 @@ session_start();
         /************
          * quick ajax request using jquery to store item to the session
          */
-        $(document).ready(function() {
-            $(".btn btn-primary").click(function() {
-                storeInfo(this.value)
-                $('.toast').toast('show');
-            });
-        });
-
-        function buttonClick() {
-            console.log(this.value);
-        }
-
+        
         function storeInfo(item) {
             $.post("storeInfo.php", {
                 '0': item
             });
+
+            $('.toast').toast('show');
         }
     </script>
 </body>
