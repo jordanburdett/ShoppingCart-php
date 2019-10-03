@@ -27,7 +27,7 @@ session_start();
         </div>
     </div>
 
-    <div class="toast" id="myToast" style="position: relative; top: 0; right: 0;">
+    <div class="toast" id="myToast" style="position: absolute; top: 0; right: 0;">
         <div class="toast-header">
             <strong class="mr-auto"><i class="fa fa-grav"></i> Item Added to Cart</strong>
             
@@ -139,6 +139,7 @@ session_start();
                 '0': item
             });
 
+            $('.toast').toast(delay: 5000);
             $('.toast').toast('show');
         }
     </script>
