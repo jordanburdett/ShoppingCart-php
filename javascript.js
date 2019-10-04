@@ -18,11 +18,11 @@
             console.log(item.value);
             console.log("." + item.id);
 
-            console.log(typeof(item));
+            console.log(typeof(String(item)));
 
             
             $.post("storeInfo.php", {
-                '0': item
+                '0': String(item)
             });
             
 
