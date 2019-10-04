@@ -41,6 +41,7 @@ session_start();
             } else {
 
                 foreach ($sessionArray as $value) {
+                    $value = (string)$value;
                     echo "<div class='card' id='$value' name='$value'>
                             <div class='card-body'>
                                     <p class='card-text'>$value
@@ -78,6 +79,8 @@ session_start();
 
         function removeItem(item) {
             console.log("test");
+            console.log(item);
+            console.log(typeof(item));
            
             console.log(document.getElementById(item));
 
