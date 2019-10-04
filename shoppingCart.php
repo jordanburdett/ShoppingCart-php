@@ -73,13 +73,13 @@ session_start();
             <form id="infoForm" method="post" action="confirmation.php">
                 <div class="form-group">
                     <label for="address">Address:</label>
-                    <input type="text" class="form-control" id="city" placeholder="City" name="city">
+                    <input type="text" class="form-control" id="city" placeholder="City" name="city" required>
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" id="state" placeholder="state" name="state">
+                    <input type="text" class="form-control" id="state" placeholder="state" name="state" required>
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" id="areaCode" placeholder="Area Code" name="areaCode">
+                    <input type="text" class="form-control" id="areaCode" placeholder="Area Code" name="areaCode" required>
                 </div>
                
                 <button type="submit" class="btn btn-primary">Purchase</button>
