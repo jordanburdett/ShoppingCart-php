@@ -18,7 +18,7 @@
             console.log(item.value);
             console.log("." + item.id);
 
-            console.log(typeof(String(item)));
+            console.log(String(item));
 
             
             $.post("storeInfo.php", {
