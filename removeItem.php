@@ -8,12 +8,12 @@ $items = $_SESSION['items'];
 $item = "Banana";
 
 var_dump($items);
-echo "count: count($items)";
-echo "Looking for: $item";
+echo "count: " . count($items) . "<br>";
+echo "Looking for: $item<br>";
 for ($i = 0; $i < count($items); $i++) {
 
-    echo "index: $i";
-    echo "current: $items[$i]";
+    echo "index: $i<br>";
+    echo "current: " . $items[$i] . "<br>";
 
 
     if ($items[$i] == $item) {
