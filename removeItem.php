@@ -8,7 +8,7 @@ $items = $_SESSION['items'];
 $item = "Banana";
 
 var_dump($items);
-echo "count: " . count($items) . "<br>";
+echo "<br>count: " . count($items) . "<br>";
 echo "Looking for: $item<br>";
 for ($i = 0; $i < count($items); $i++) {
 
@@ -19,7 +19,7 @@ for ($i = 0; $i < count($items); $i++) {
     if ($items[$i] == $item) {
         unset($items[$i]);
         $items = array_values($items);
-        echo "found";
+        echo "found<br>";
         break;
     }
 }
