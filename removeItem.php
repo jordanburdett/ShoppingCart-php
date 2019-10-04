@@ -5,7 +5,7 @@ session_start();
 $item = $_POST['0'];
 $items = $_SESSION['items'];
 
-vardump($items);
+var_dump($items);
 
 
 for ($i = 0; $i < count($items); $i++) {
