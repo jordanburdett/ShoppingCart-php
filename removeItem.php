@@ -5,12 +5,14 @@ session_start();
 $item = $_POST['0'];
 $items = $_SESSION['items'];
 
+echo $items;
 
 
 for ($i = 0; $i < count($items); $i++) {
     if ($values == item) {
         unset($items[$i]);
         $items = array_values($items);
+        echo "found";
         break;
     }
 }
