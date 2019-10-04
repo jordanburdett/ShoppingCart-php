@@ -5,8 +5,6 @@ session_start();
 $item = $_POST['0'];
 $items = $_SESSION['items'];
 
-$item = "Banana";
-
 var_dump($items);
 echo "<br>count: " . count($items) . "<br>";
 echo "Looking for: $item<br>";
