@@ -14,7 +14,7 @@ session_start();
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/5990b2791e.js" crossorigin="anonymous"></script>
-    <script src="javascript.js"></script>
+    
 </head>
 
 <body>
@@ -60,6 +60,38 @@ session_start();
         </div>
     </div>
 
+    <script>
+        /************
+         * quick ajax request using jquery to store item to the session
+         */
+
+        function storeInfo(item) {
+            $.post("storeInfo.php", {
+                '0': item
+            });
+
+            $('.toast').toast({
+                delay: 1000
+            });
+            $('.toast').toast('show');
+        }
+
+        function removeItem(item) {
+            console.log("test");
+            console.log(document.getElementById(item).name);
+            console.log(document.getElementById(item));
+
+            $.post("storeInfo.php", {
+                '0': (item.id)
+            });
+
+
+            console.log("Item removed: " + item);
+
+            $("#" + item.id).hide();
+
+        }
+    </script>
 
 </body>
 
