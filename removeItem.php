@@ -5,6 +5,8 @@ session_start();
 $item = $_POST['0'];
 $items = $_SESSION['items'];
 
+$item = "Banana";
+
 var_dump($items);
 
 
@@ -16,6 +18,8 @@ for ($i = 0; $i < count($items); $i++) {
         break;
     }
 }
+
+var_dump($items);
 
 $_SESSION['items'] = $items;
 ?>
