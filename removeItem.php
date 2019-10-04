@@ -3,18 +3,17 @@ session_start();
 
 // JUst need to finish this part!! and the remove should work!
 $item = $_POST['0'];
-$array = $_SESSION['items'];
+$items = $_SESSION['items'];
 
 
-$index = 0;
-foreach($array as $values) {
+
+for ($i = 0; $i < count($items); $i++) {
     if ($values == item) {
-        unset($array[$index]);
-        $array = array_values($array);
+        unset($items[$i]);
+        $items = array_values($items);
         break;
     }
-    $index++;
 }
 
-$_SESSION['items'] = $array;
+$_SESSION['items'] = $items;
 ?>

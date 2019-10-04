@@ -82,14 +82,14 @@ session_start();
             console.log(item.id);
             console.log(typeof(item.id));
            
-            console.log(document.getElementById(item));
+            
 
             $.post("removeItem.php", {
                 '0': (item.id)
             });
 
 
-            console.log("Item removed: " + item);
+            console.log("Item removed: " + item.id);
 
             $("#" + item.id).hide();
 

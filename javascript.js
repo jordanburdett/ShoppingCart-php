@@ -14,7 +14,7 @@
         }
 
         function removeItem(item) {
-            console.log("test");
+            console.log("remove item");
             console.log(document.getElementById(item).name);
             console.log(document.getElementById(item));
             
