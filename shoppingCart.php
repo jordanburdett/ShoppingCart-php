@@ -69,6 +69,22 @@ session_start();
 
             ?>
 
+            <h6 class="display-4">Personal Info</h6>
+            <form id="infoForm" method="post" action="confirmation.php">
+                <div class="form-group">
+                    <label for="address">Address:</label>
+                    <input type="text" class="form-control" id="city" placeholder="City" name="city">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="state" placeholder="state" name="state">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="areaCode" placeholder="Area Code" name="areaCode">
+                </div>
+               
+                <button type="submit" class="btn btn-primary">Purchase</button>
+            </form>
+
         </div>
     </div>
 
@@ -101,6 +117,9 @@ session_start();
 
 
             console.log("Item removed: " + item.id);
+            $('toast').toast({
+                delay: 1000
+            })
             $('.toast').toast('show');
             $("#" + item.id).hide();
 
