@@ -14,12 +14,8 @@
         }
 
         function removeItem(item) {
-            console.log(item.id);
-            console.log(item);
-            console.log("." + item.id);
-
-            console.log(typeof((item.id)));
-
+            console.log(document.getElementById(item).name);
+            console.log(document.getElementById(item));
             
             $.post("storeInfo.php", {
                 '0': (item.id)
