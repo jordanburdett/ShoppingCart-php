@@ -79,8 +79,8 @@ session_start();
 
         function removeItem(item) {
             console.log("test");
-            console.log(item.name);
-            console.log(typeof(item));
+            console.log(item.id);
+            console.log(typeof(item.id));
            
             console.log(document.getElementById(item));
 
