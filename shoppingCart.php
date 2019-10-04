@@ -14,13 +14,24 @@ session_start();
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/5990b2791e.js" crossorigin="anonymous"></script>
-    
+
 </head>
 
 <body>
     <div class="jumbotron">
         <div class="container-fluid">
             <h1 class="display-4" style="text-align:center;">Cart</h1>
+        </div>
+    </div>
+
+    <div class="fixed-top">
+        <div class="toast" id="myToast" style="position: absolute; top: 0; right: 0;">
+            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="toast-body">
+                <div>Item Removed from Cart</div>
+            </div>
         </div>
     </div>
 
@@ -41,7 +52,7 @@ session_start();
             } else {
 
                 foreach ($sessionArray as $value) {
-                    $value = (string)$value;
+                    $value = (string) $value;
                     echo "<div class='card' id='$value' name='$value'>
                             <div class='card-body'>
                                     <p class='card-text'>$value
@@ -81,8 +92,8 @@ session_start();
             console.log("test");
             console.log(item.id);
             console.log(typeof(item.id));
-           
-            
+
+
 
             $.post("removeItem.php", {
                 '0': (item.id)
@@ -90,7 +101,7 @@ session_start();
 
 
             console.log("Item removed: " + item.id);
-
+            $('.toast').toast('show');
             $("#" + item.id).hide();
 
         }
