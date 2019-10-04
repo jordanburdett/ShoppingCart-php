@@ -15,7 +15,7 @@
 
         function removeItem(item) {
             console.log(item.id);
-            console.log(item.value);
+            console.log(item);
             console.log("." + item.id);
 
             console.log(typeof((item.id)));
