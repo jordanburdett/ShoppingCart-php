@@ -22,7 +22,7 @@
 
             
             $.post("storeInfo.php", {
-                '0': String(item)
+                '0': item
             });
             
 
