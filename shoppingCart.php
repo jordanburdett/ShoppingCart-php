@@ -41,7 +41,7 @@ session_start();
             } else {
 
                 foreach ($sessionArray as $value) {
-                    echo "<div class='card' id='$value'>
+                    echo "<div class='card' id='$value' value='$value'>
                             <div class='card-body'>
                                     <p class='card-text'>$value
 
