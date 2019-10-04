@@ -84,7 +84,7 @@ session_start();
            
             console.log(document.getElementById(item));
 
-            $.post("storeInfo.php", {
+            $.post("removeItem.php", {
                 '0': (item.id)
             });
 
