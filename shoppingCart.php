@@ -79,7 +79,7 @@ session_start();
 
         function removeItem(item) {
             console.log("test");
-            console.log(item);
+            console.log(item.name);
             console.log(typeof(item));
            
             console.log(document.getElementById(item));
