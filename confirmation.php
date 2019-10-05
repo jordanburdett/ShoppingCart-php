@@ -18,9 +18,9 @@ session_start();
 </head>
 
 <body>
-    <div class="jumbotron">
+    <div class="shadow p-4 mb-4 bg-white">
         <div class="container">
-            <h6>Order recieved!</h6>
+            <h1>Order recieved!</h6>
             <ul>
                 <?php
                 $items = $_SESSION['items'];
@@ -44,7 +44,11 @@ session_start();
         </div>
     </div>
 
-    
+
 </body>
 
 </html>
+
+<?php
+    session_destroy();
+?>
