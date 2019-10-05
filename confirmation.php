@@ -19,9 +19,32 @@ session_start();
 
 <body>
     <div class="jumbotron">
-        <div class="container-fluid">
-            <h6 class="display-4" style="text-align:center;">Order received!</h1>
+        <div class="container">
+            <h6>Order recieved!</h6>
+            <ul>
+                <?php
+                $items = $_SESSION['items'];
+
+                foreach ($items as $item) {
+                    echo "<li>$item</li>";
+                }
+                ?>
+                <p>Your items will be shipped to
+                    <?php
+
+                    $city = $_POST['city'];
+                    $state = $_POST['state'];
+                    $areaCode = $_POST['areaCode'];
+
+                    echo "$city, $state $areaCode";
+                    ?>
+                </p>
+
+            </ul>
         </div>
     </div>
+
+    
 </body>
+
 </html>
