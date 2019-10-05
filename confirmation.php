@@ -18,29 +18,30 @@ session_start();
 </head>
 
 <body>
-    <div class="shadow p-4 mb-4 bg-white">
-        <div class="container">
+
+    <div class="container">
+        <div class="shadow p-4 mb-4 bg-white">
             <h1>Order recieved!</h6>
-            <ul>
-                <?php
-                $items = $_SESSION['items'];
-
-                foreach ($items as $item) {
-                    echo "<li>$item</li>";
-                }
-                ?>
-                <p>Your items will be shipped to
+                <ul>
                     <?php
+                    $items = $_SESSION['items'];
 
-                    $city = $_POST['city'];
-                    $state = $_POST['state'];
-                    $areaCode = $_POST['areaCode'];
-
-                    echo "$city, $state $areaCode";
+                    foreach ($items as $item) {
+                        echo "<li>$item</li>";
+                    }
                     ?>
-                </p>
+                    <p>Your items will be shipped to
+                        <?php
 
-            </ul>
+                        $city = $_POST['city'];
+                        $state = $_POST['state'];
+                        $areaCode = $_POST['zipCode'];
+
+                        echo "$city, $state $areaCode";
+                        ?>
+                    </p>
+
+                </ul>
         </div>
     </div>
 
@@ -50,5 +51,5 @@ session_start();
 </html>
 
 <?php
-    session_destroy();
+session_destroy();
 ?>

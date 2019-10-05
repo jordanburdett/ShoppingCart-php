@@ -79,7 +79,7 @@ session_start();
                     <input type="text" class="form-control" id="state" placeholder="state" name="state" required>
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" id="areaCode" placeholder="Area Code" name="areaCode" required>
+                    <input type="text" class="form-control" id="zipCode" placeholder="Zip Code" name="zipCode" required>
                 </div>
                
                 <button type="submit" class="btn btn-primary">Purchase</button>
